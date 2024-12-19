@@ -6,7 +6,9 @@ plugins {
 android {
     namespace = "com.example.rainfallappkotlinfinal"
     compileSdk = 35
-
+buildFeatures{
+    viewBinding= true
+}
     defaultConfig {
         applicationId = "com.example.rainfallappkotlinfinal"
         minSdk = 24
@@ -49,4 +51,8 @@ dependencies {
     dependencies {
         implementation("com.airbnb.android:lottie:6.1.0") // Or latest version
     }
+    // GSON converter
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    // retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
 }

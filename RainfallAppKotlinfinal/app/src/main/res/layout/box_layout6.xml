@@ -12,16 +12,17 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        app:srcCompat="@drawable/sea" />
+        android:layout_marginTop="6dp"
+        app:srcCompat="@drawable/conditions" />
 
     <TextView
-        android:id="@+id/rain"
+        android:id="@+id/condition"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/merriweathersans_medium"
-        android:text="0.00 cm"
+        android:text="sunny"
         android:textAlignment="center"
+        android:textAllCaps="true"
         android:textColor="@color/black"
         android:textSize="10sp" />
 
@@ -30,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:fontFamily="@font/merriweathersans_medium"
-        android:text="Rain"
+        android:text="Condition"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="10sp" />

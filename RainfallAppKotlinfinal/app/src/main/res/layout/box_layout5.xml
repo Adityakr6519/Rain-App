@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cur_wind_speed"
     android:layout_width="80dp"
     android:layout_height="150dp"
     android:layout_marginLeft="20dp"
@@ -12,15 +13,15 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        app:srcCompat="@drawable/sea" />
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/wind" />
 
     <TextView
-        android:id="@+id/rain"
+        android:id="@+id/wind"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/merriweathersans_medium"
-        android:text="0.00 cm"
+        android:text="0.00 m/s"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="10sp" />
@@ -30,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:fontFamily="@font/merriweathersans_medium"
-        android:text="Rain"
+        android:text="Windspeed"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="10sp" />

@@ -12,15 +12,15 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        app:srcCompat="@drawable/sea" />
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/humidity" />
 
     <TextView
-        android:id="@+id/rain"
+        android:id="@+id/cur_humidity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/merriweathersans_medium"
-        android:text="0.00 cm"
+        android:text="0.0 %"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="10sp" />
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:fontFamily="@font/merriweathersans_medium"
-        android:text="Rain"
+        android:text="Humidity"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="10sp" />
